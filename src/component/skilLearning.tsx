@@ -4,7 +4,7 @@ import LoginSection from "./loginSection"
 const Learning = () => {
   return (
     <>
-      <div className="md:block">
+     
         <div className="relative">
           <div className="bg-indigo-950 h-screen">
             <div className="absolute top-0 left-0">
@@ -27,7 +27,7 @@ const Learning = () => {
             </div>
           </div>
         </div>
-      </div>
+      
     </>
 
   )
