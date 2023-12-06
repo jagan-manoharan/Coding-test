@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif,'open Sans';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@font-face {
+  font-family: "openSansLight";
+  src: url("../src/fonts/OpenSans-Light.ttf");
+}
+@font-face {
+  font-family: "openSansBold";
+  src: url("../src/fonts/OpenSans-Bold.ttf");
+}
+@font-face {
+  font-family: "openSansItalic";
+  src: url("../src/fonts/OpenSans-Italic.ttf");
+}
+@font-face {
+  font-family: "openSansExtraBold";
+  src: url("../src/fonts/OpenSans-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "openSansMedium";
+  src: url("../src/fonts/OpenSans-Medium.ttf");
+}
+@font-face {
+  font-family: "openSansRegular";
+  src: url("../src/fonts/OpenSans-Regular.ttf");
+}
+@font-face {
+  font-family: "openSansSemibold";
+  src: url("../src/fonts/OpenSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: "openItalicBold";
+  src: url("../src/fonts/OpenSans-BoldItalic.ttf");
+}
+
+.openSansLight{
+  font-family: "openSansLight"
+}
+.openSansBold{
+  font-family: "openSansBold";
+}
+.openSansItalic{
+  font-family: "openSansItalic";
+}
+.openSansItalicBold{
+  font-family: "openItalicBold";
+}
+.openSansExtraBold{
+  font-family: "openSansExtraBold";
+}
+.openSansMedium{
+  font-family: "openSansMedium";
+}
+.openSansRegular{
+  font-family: "openSansRegular";
+}
+.openSansSemiBold{
+  font-family: "openSansSemibold";
+}
